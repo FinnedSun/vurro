@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev:all": "concurrently \"bun run dev\" \"bun run dev:webhook\"",
-    "dev:webhook": "ngrok http --url=deep-brave-caribou.ngrok-free.app 3000",
+    "dev:webhook": "ngrok http --url=overplenteous-brooks-superornamentally.ngrok-free.app 3000",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -43,6 +43,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
+    "concurrently": "^9.2.1",
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.2",
     "drizzle-orm": "^0.44.5",
@@ -59,6 +60,7 @@
     "react-resizable-panels": "^3.0.6",
     "recharts": "2.15.4",
     "sonner": "^2.0.7",
+    "svix": "^1.76.1",
     "tailwind-merge": "^3.3.1",
     "vaul": "^1.1.2",
     "zod": "^4.1.8"
