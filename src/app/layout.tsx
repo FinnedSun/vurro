@@ -4,7 +4,7 @@ import "./globals.css";
 import {
   ClerkProvider,
 } from '@clerk/nextjs'
-// import { TRPCProvider } from "@/trpc/client";
+import { TRPCProvider } from "@/trpc/client";
 import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,10 +43,10 @@ export default function RootLayout({
         <body
           className={`${inter.className}`}
         >
-          {/* <TRPCProvider> */}
-          <Toaster />
-          {children}
-          {/* </TRPCProvider> */}
+          <TRPCProvider>
+            <Toaster />
+            {children}
+          </TRPCProvider>
         </body>
       </html>
     </ClerkProvider>

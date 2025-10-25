@@ -3,7 +3,7 @@ import { MainSection } from './main-section'
 import { Separator } from '@/components/ui/separator'
 import { PersonalSection } from './personal-section'
 import { SignedIn } from '@clerk/nextjs'
-import { SubscriptionsSection } from './subscriptions-section'
+// import { SubscriptionsSection } from './subscriptions-section'
 
 export const HomeSidebar = () => {
   return (
